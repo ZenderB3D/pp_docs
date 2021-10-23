@@ -10,19 +10,19 @@ nav:
         'Adding an armature': create/addarmature.md
         'Adding your own parts/templates': create/addparts.md
     - Features:
-        'Set child of constraints': features/addchildof.md
-        'Snap selected to active': features/snapseltoactive.md
-        'Track to and apply': features/tracktoandapply.md
-        'Lock length anchor': features/locklengthanchor.md
-        'Reset hooks': features/resethooks.md
-        'Toggle subd modifiers': features/togglesubd.md
-        'Remove constraints': features/removeconstraints.md
-        'Linked duplicate radial array': features/lnkdupliradarray.md
-        'Multi place': features/multiplace.md
-        'Delete piston': features/deletepiston.md
-        'Collection overlay': features/collectionoverlay.md
-        'Select tool': features/selecttool.md
-        'Collection and object management': features/collectionmanagement.md
+        '00 - Set child of constraints': features/addchildof.md
+        '01 - Snap selected to active': features/snapseltoactive.md
+        '02 - Track to and apply': features/tracktoandapply.md
+        '03 - Lock length anchor': features/locklengthanchor.md
+        '04 - Reset hooks': features/resethooks.md
+        '05 - Toggle subd modifiers': features/togglesubd.md
+        '06 - Remove constraints': features/removeconstraints.md
+        '07 - Linked duplicate radial array': features/lnkdupliradarray.md
+        '08 - Multi place': features/multiplace.md
+        '09 - Delete piston': features/deletepiston.md
+        '10 - Collection overlay': features/collectionoverlay.md
+        '11 - Select tool': features/selecttool.md
+        '12 - Collection and object management': features/collectionmanagement.md
         
 
 theme: readthedocs
