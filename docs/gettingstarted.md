@@ -2,7 +2,7 @@
 
 You can install pistonpusher like most other add-ons. Open blender, go to preferences, click on addons, click on 'install...' and select the pistonpusherxxx.zip where you downloaded it. Don't forget to activate it.
 
-Assuming you downloaded the pistons and piston parts zips, you should extract these at a location of choice. Once done, navigate to the pistonpusher add-on preferences in blender. You'll have to point the add-on to these directories. It's recommended that you use blender's filebrowser for this as the string should contain a trailing '\' (on windows, this is os dependent)
+Assuming you downloaded the pistons and piston parts zips, you should extract these at a location of choice. Once done, navigate to the pistonpusher add-on preferences in blender. You'll have to point the add-on to these directories. It's recommended that you use blender's filebrowser for this as the string should contain a trailing backslash (on windows, this is os dependent)
 
 There is also a kpack, see kitops manual on how to install it if you haven't done it before. It's a very similar process.
 
