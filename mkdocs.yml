@@ -1,0 +1,30 @@
+site_name: PistonPusher documentation
+
+nav:
+    - Introduction: index.md
+    - Getting Started: gettingstarted.md
+    - Create:
+        'Intro': create/create.md
+        'Template mode': create/templatemode.md
+        'Custom mode': create/custommode.md
+        'Adding an armature': create/addarmature.md
+        'Adding your own parts/templates': create/addparts.md
+    - Features:
+        'Set child of constraints': features/addchildof.md
+        'Snap selected to active': features/snapseltoactive.md
+        'Track to and apply': features/tracktoandapply.md
+        'Lock length anchor': features/locklengthanchor.md
+        'Reset hooks': features/resethooks.md
+        'Toggle subd modifiers': features/togglesubd.md
+        'Remove constraints': features/removeconstraints.md
+        'Linked duplicate radial array': features/lnkdupliradarray.md
+        'Multi place': features/multiplace.md
+        'Delete piston': features/deletepiston.md
+        'Collection overlay': features/collectionoverlay.md
+        'Select tool': features/selecttool.md
+        'Collection and object management': features/collectionmanagement.md
+        
+
+theme: readthedocs
+
+
