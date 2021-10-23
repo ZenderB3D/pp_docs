@@ -1,6 +1,8 @@
 site_name: PistonPusher documentation
+site_url: https://pp-docs.readthedocs.io/en/latest/
 
 pages:
+
     - Introduction: index.md
     - Getting Started: gettingstarted.md
     - Create:
