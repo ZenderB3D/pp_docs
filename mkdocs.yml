@@ -1,6 +1,6 @@
 site_name: PistonPusher documentation
 
-nav:
+pages:
     - Introduction: index.md
     - Getting Started: gettingstarted.md
     - Create:
