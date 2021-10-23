@@ -4,11 +4,11 @@ nav:
     - Introduction: index.md
     - Getting Started: gettingstarted.md
     - Create:
-        'Intro': create/create.md
-        'Template mode': create/templatemode.md
-        'Custom mode': create/custommode.md
-        'Adding an armature': create/addarmature.md
-        'Adding your own parts/templates': create/addparts.md
+        '01 - Intro': create/create.md
+        '02 - Template mode': create/templatemode.md
+        '03 - Custom mode': create/custommode.md
+        '04 - Adding an armature': create/addarmature.md
+        '05 - Adding your own parts/templates': create/addparts.md
     - Features:
         '00 - Set child of constraints': features/addchildof.md
         '01 - Snap selected to active': features/snapseltoactive.md
@@ -22,7 +22,7 @@ nav:
         '09 - Delete piston': features/deletepiston.md
         '10 - Collection overlay': features/collectionoverlay.md
         '11 - Select tool': features/selecttool.md
-        '12 - Collection and object management': features/collectionmanagement.md
+        '12 - Collection/object management': features/collectionmanagement.md
         
 
 theme: readthedocs
