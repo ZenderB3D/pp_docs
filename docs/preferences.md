@@ -27,5 +27,7 @@
 
 #Advanced
 **Collection to append** - This is the piston (o)riginal collection. You can change this if you prefer so.
+
 **Custom plural** - Add a pre- and/or suffix.
+
 **Custom singular** - Add a pre- and/or suffix.
