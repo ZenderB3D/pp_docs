@@ -27,5 +27,7 @@ nav:
         
 
 theme: readthedocs
+    hljs_languages:
+        - yaml
 
 
