@@ -26,7 +26,8 @@ nav:
         Collection/object management: features/collectionmanagement.md
         
 
-theme: readthedocs
+theme: 
+    name: readthedocs
     hljs_languages:
         - yaml
 
