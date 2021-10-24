@@ -5,7 +5,7 @@ After you prepared the piston you're almost done. This section describes how the
 
 
 **Type of piston**  
-The operator knows a few different approaches, you toggle between these by changing the value of the 'Front length anchor' checkbox. The right approach depends a lot on where the mounts are placed and wether they should pivot or not.
+The operator knows a few different approaches, you toggle between these by changing the value of the 'Front length anchor' checkbox. The right approach depends a lot on where the mounts are placed and wether they should pivot or not. See the length anchor section for more.
 
 **Telescopic rods**  
 Telescopic rods can also be made at this point. Simply duplicate the first piston rod and scale it down on the X and Z axis. Move it slightly forward. Each rod needs its origin set to its end. 
@@ -24,5 +24,10 @@ Only objects that are linked to any of the following child collections will be a
 >Cylinder, Rod, Mounts, Connectors(If present)
 
 **Any other child collections will be appended as well, so long they are childs of the 'PIS-Piston(O)' collection. You can use this to add joints and have some freedom while managing decals or other decorative objects.**
+
+
+**Additional information**
+Static connectors can be added before you add an armature. Non-static, meaning the connectors have control empties, connectors should be added after you added the armature. With connectors I mean hose connectors. The connectors collection/category can also deal with objects that fit in no other collection/category. It is optional. As an mnemonic, if your object(or assembly even) relies on (complex) relationships, exclude it from the process and add it back afterwards. Either drag it out of the PIS-piston(o) collection or rename the collection.
+
 
 

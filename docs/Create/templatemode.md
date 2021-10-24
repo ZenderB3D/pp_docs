@@ -25,3 +25,7 @@ Where these features appear depend on your add-on preferences!
 **6** 
 ![Radial array](../images/addarmature2.jpg)
 >At this point you should select certain* objects and hit the 'add armature' button. There is also the ability to specify which type of track to constraints you want. The save panel will appear and all you have to do is select a directory and specify a name(optionally). It will also save a thumbnail(based on your viewport, no camera needed)
+
+
+**Additional information**
+You may notice some piston rods come with mounts or decorative pieces like thread. These rods serve a secondary purpose and are intended for side mounted pistons.
