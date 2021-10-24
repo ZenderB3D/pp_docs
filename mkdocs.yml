@@ -6,25 +6,25 @@ nav:
     - Introduction: index.md
     - Getting Started: gettingstarted.md
     - Create:
-        Intro: create/create.md
-        Template mode: create/templatemode.md
-        Custom mode: create/custommode.md
-        Adding an armature: create/addarmature.md
-        Adding your own parts/templates: create/addparts.md
+        Intro: create.md
+        Template mode: templatemode.md
+        Custom mode: custommode.md
+        Adding an armature: addarmature.md
+        Adding your own parts/templates: addparts.md
     - Features:
-        Set child of constraints: features/addchildof.md
-        Snap selected to active: features/snapseltoactive.md
-        Track to and apply: features/tracktoandapply.md
-        Lock length anchor: features/locklengthanchor.md
-        Reset hooks: features/resethooks.md
-        Toggle subd modifiers: features/togglesubd.md
-        Remove constraints: features/removeconstraints.md
-        Linked duplicate radial array: features/lnkdupliradarray.md
-        Multi place: features/multiplace.md
-        Delete piston: features/deletepiston.md
-        Collection overlay: features/collectionoverlay.md
-        Select tool: features/selecttool.md
-        Collection/object management: features/collectionmanagement.md
+        Set child of constraints: addchildof.md
+        Snap selected to active: snapseltoactive.md
+        Track to and apply: tracktoandapply.md
+        Lock length anchor: locklengthanchor.md
+        Reset hooks: resethooks.md
+        Toggle subd modifiers: togglesubd.md
+        Remove constraints: removeconstraints.md
+        Linked duplicate radial array: lnkdupliradarray.md
+        Multi place: multiplace.md
+        Delete piston: deletepiston.md
+        Collection overlay: collectionoverlay.md
+        Select tool: selecttool.md
+        Collection/object management: collectionmanagement.md
         
 
 theme: readthedocs
