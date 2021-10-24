@@ -5,6 +5,7 @@ site_url: https://pp-docs.readthedocs.io/en/latest/
 nav:
     - Introduction: index.md
     - Getting Started: gettingstarted.md
+    - Preferences: preferences.md
     - Create:
         - Intro: Create/create.md
         - Template mode: Create/templatemode.md
