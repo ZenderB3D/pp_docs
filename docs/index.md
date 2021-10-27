@@ -2,7 +2,7 @@
 
 This is the pistonpusher documentation landing page. It also serves as an introduction.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6dU9idaPY54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # What is pistonpusher
 
