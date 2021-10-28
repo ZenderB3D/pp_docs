@@ -14,5 +14,9 @@ The length anchor also plays an important role in how the add armature operator 
 >A piston with a rear length anchor. It essentially performs the same role but on the other side. Note how the 'cap end' or A side mount is at the front of the piston. If we'd add a length anchor to the front here, it would not work as intended.
 
 
+**Custom property**  
+length anchors have a custom property, visible in the n-panel item view. It's value represents a soft-max limit. If the piston is stretched beyond this length, the length anchor will maintain a position roughly half-way the total piston length. You can lower and increase it as you see fit. If you want to place pistons in an extended state, lower it.
+
+
 
 
