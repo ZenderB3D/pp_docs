@@ -13,7 +13,7 @@ nav:
         - The length anchor: Create/lengthanchor.md
         - Adding an armature: Create/addarmature.md
         - Adding your own parts/templates: Create/addparts.md
-	- Create a/To piston: Create/createa.md
+	- Create a(To) piston: Create/createa.md
     - Features:
         - Set child of constraints: Features/addchildof.md
         - Snap selected to active: Features/snapseltoactive.md
