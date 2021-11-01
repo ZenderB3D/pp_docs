@@ -14,7 +14,6 @@ nav:
         - Adding an armature: Create/addarmature.md
         - Adding your own parts/templates: Create/addparts.md
     - Features:
-	- Create a piston: Create/createapiston.md
         - Set child of constraints: Features/addchildof.md
         - Snap selected to active: Features/snapseltoactive.md
         - Track to and apply: Features/tracktoandapply.md
