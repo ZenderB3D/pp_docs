@@ -29,6 +29,7 @@ nav:
         - Collection overlay: Features/collectionoverlay.md
         - Select tool: Features/selecttool.md
         - Collection/object management: Features/collectionmanagement.md
+    - Other addons: oaddons.md
         
 
 theme: readthedocs
