@@ -6,11 +6,13 @@ There is both a snap tool and modal. The tool provides numerical input and uses 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NRG7CG37kPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
->Note, you can also re-snap a piston that was already constrained. If you have two empties selected and make a selection in the pop up menu, you will append/instantiate and start the snap modal. 
+>Note, you can also re-snap a piston that was already constrained. If you have two empties selected and make a selection in the pop up menu, you will append/instantiate and start the snap modal.
 
 >The target empties have to be aligned along their local Y axes.
 
 >It also 'restores' a piston to its default set up, so that the B empty is a child of the armature again before it gets snapped. 
+
+>To get your target empties, simply snap one empty into place, like a mount, rotate it so that the empty's Y/-Y axis points in the right direction, like that of another mount, then duplicate and move along local axes. You can not use the track to and apply operator for this. I recommend that you use the orientation of the first mount to place the second.
 
 >**hotkeys:**  
 >S - toggle scaling  
@@ -20,7 +22,9 @@ There is both a snap tool and modal. The tool provides numerical input and uses 
 >LEFT arrow - cycle piston type  
 >RIGHT arrow - cycle sub directories  
 >mousewheel up/down - toggle direction  
->SHIFT - sensitivity modifier  
+>SHIFT - sensitivity modifier
+
+>Numpad keys allow camera control but certain features won't work in ortho view. 
 
 
 
