@@ -12,7 +12,7 @@ There is both a snap tool and modal. The tool provides numerical input and uses 
 
 >It also 'restores' a piston to its default set up, so that the B empty is a child of the armature again before it gets snapped. 
 
->To get your target empties, simply snap one empty into place, like a mount, rotate it so that the empty's Y/-Y axis points in the right direction, like that of another mount, then duplicate and move along local axes. You can not use the track to and apply operator for this. I recommend that you use the orientation of the first mount to place the second.
+>To get your target empties, simply snap one empty into place, like a mount, rotate it so that the empty's Y/-Y axis points in the right direction, like that of another mount, then duplicate and move along local axes. You can use the track to and apply operator for this.
 
 >**hotkeys:**  
 >S - toggle scaling  
