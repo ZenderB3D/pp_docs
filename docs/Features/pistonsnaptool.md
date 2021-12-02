@@ -1,6 +1,6 @@
-#Piston snap tool
+#Piston snap modal/tool
 
-There is both a snap tool and modal. The tool provides numerical input and uses the targets differently. For most usecases the snap modal is probably the better choice. You can choose which one you want to use in the add-on preferences. It's set to modal by default.
+There are both a snap tool and modal. The tool provides numerical input and uses the targets differently than the modal operator. For most usecases the snap modal is probably the better choice. You can choose which one you want to use in the add-on preferences. It's set to modal by default.
 
 **The piston snap modal**
 
