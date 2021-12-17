@@ -16,11 +16,11 @@ All modes are controlled the same, primarily by left and right mouse button clic
 
 hotkeys:
 
->scroll mousewheel up/down - cycle bone layer visibility of the active armature.
->Q - Restore original bone layers visibility state
->W - Relative on/off(obj. to arm. only) 
->E - Switch 1st armature (arm. to arm. only)
->middle mousebutton and numpad for camera control
+>scroll mousewheel up/down - cycle bone layer visibility of the active armature.  
+>Q - Restore original bone layers visibility state  
+>W - Relative on/off(obj. to arm. only)  
+>E - Switch 1st armature (arm. to arm. only)  
+>middle mousebutton and numpad for camera control  
 
 Other things to know:
 
