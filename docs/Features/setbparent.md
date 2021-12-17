@@ -1,8 +1,8 @@
 #Set bone as parent tool
 
-This is 3 mode tool designed to rig quicker. 
+This is a 3 mode tool designed to rig quicker. 
 
-object to armature, armature to armature and inter-armature. 
+
 
 **object to armature** mode allows you to set a bone as parent for any number number of objects. Excluding other armatures however. Relative/non relative is supported( ie, transforms can be maintained)
 
@@ -16,12 +16,11 @@ All modes are controlled the same, primarily by left and right mouse button clic
 
 hotkeys:
 
-scroll mousewheel up/down - cycle bone layer visibility of the active armature.
-Q - Restore original bone layers visibility state
-W - Relative on/off(obj. to arm. only) 
-E - Switch 1st armature (arm. to arm. only)
-
-middle mousebutton and numpad for camera control
+>scroll mousewheel up/down - cycle bone layer visibility of the active armature.
+>Q - Restore original bone layers visibility state
+>W - Relative on/off(obj. to arm. only) 
+>E - Switch 1st armature (arm. to arm. only)
+>middle mousebutton and numpad for camera control
 
 Other things to know:
 
