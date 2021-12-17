@@ -17,7 +17,7 @@ nav:
     - Features:
         - Piston snap tool: Features/pistonsnaptool.md
         - Set child of constraints: Features/addchildof.md
-	- Set bone as parent tool: Features/setbparent.md
+        - Set bone as parent tool: Features/setbparent.md
         - Snap selected to active: Features/snapseltoactive.md
         - Track to and apply: Features/tracktoandapply.md
         - Lock length anchor: Features/locklengthanchor.md
