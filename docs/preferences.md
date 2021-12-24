@@ -20,7 +20,7 @@
 
 **Notification (text) size** - Change the size of notifications.
 
-**Warnings location** - Change the location of custom mode create onscreen warnings.
+**Warnings location** - Change the location of custom mode create onscreen warnings. This value also decides the text size of other onscreen ui elements like that of the set bone as parent tool.
 
 **Center plane size** - Change the size of the (custom) center plane that's visible when the armature solver overlay is enabled.
 

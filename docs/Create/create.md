@@ -14,7 +14,7 @@ This mode was designed for boolean heavy workflows and tie rod designs especiall
 >Normally, the bevels are turned off for performance reasons after you added more booleans.
 
 ![Radial array](../images/trodtempex.jpg)
->The empties can used to change the tie rods, cap and rod end sections.
+>The empties can be used to change the tie rods, cap and rod end sections.
   
 
 **Creating a piston - Custom mode**  

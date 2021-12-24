@@ -6,9 +6,9 @@ This is a 3 mode tool designed to rig quicker.
 
 **object to armature** mode allows you to set a bone as parent for any number number of objects. Excluding other armatures however. Relative/non relative is supported( ie, transforms can be maintained)
 
-**armature to armature** mode can be used to tie 2 different armatures together. This mode adds a pose bone child of constraint targetting a bone in another armature.
+**armature to armature** mode can be used to tie 2 different armatures together. This mode adds a pose bone child of constraint targeting a bone in another armature.
 
-**inter-armature mode** can be used to add a child of constraint targetting another bone within the same armature. 
+**inter-armature mode** can be used to add a child of constraint targeting another bone within the same armature. 
 
 
 All modes are controlled the same, primarily by left and right mouse button clicks to (de)select bones and progress step wise through the process.

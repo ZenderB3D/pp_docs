@@ -15,4 +15,3 @@ First remove the add-on in blender and then restart the client. Now you should b
 
 If you hid the n-panel, all features are accessible from the pistonpusher pop up menu. The default shortcut is **SHIFT+E**.
 
-**When assembling an assembly that re-uses the same type, it's best to leave auto-constrain off(radial arrays are an exception)**
