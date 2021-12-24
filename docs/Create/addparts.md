@@ -15,7 +15,7 @@ Rods:
 
 >If the rod comes with multiple child objects, you only select 1 child object and lastly the rod. **For rods the scene should be empty and only contain to-be rod objects to make this work properly!**
 
->Also: A rod needs its origin set to a number < 0 on the global Y axis. Any vertices 'beyond' the origin will stick out of the piston. These rods are not suited for the custom mode typically.
+>Also: A rod needs its origin set to a number < 0 on the global Y axis. Any vertices 'beyond' the origin will stick out of the piston. These rods are not suited for the custom mode typically. Rotation should also be applied after rotating the cylinder.
 
 
 If you make a part with these features, the proper collection structure and/or any name conventions are added for you.
