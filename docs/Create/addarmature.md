@@ -3,7 +3,7 @@
 
 After you prepared the piston you're almost done. This section describes how the add armature operator works.
 
-**Object names**
+**Object names**  
 Object names should be a single word, you can use special characters but not spaces to separate words. Some objects require a specific name, in template mode this is done for you, in custom mode you can refer to the on-screen warnings.  
 
 
