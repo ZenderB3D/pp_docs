@@ -17,4 +17,4 @@ Where these features appear depend on your add-on preferences!
 
 **5** 
 ![Radial array](../images/custommode2.jpg)
->At this point you should select certain* objects and hit the 'add armature' button. There is also the ability to specify which type of track to constraints you want. The save panel will appear and all you have to do is select a directory and specify a name(optionally). It will also save a thumbnail(based on your viewport, no camera needed).
+>At this point you should select certain* objects and hit the 'add armature' button. There is also the ability to specify which type of track to constraints you want. The save panel will appear and all you have to do is select a directory and specify a name(optionally). It will also save a thumbnail(since blender v3.0, a camera is required in the scene).
