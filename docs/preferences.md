@@ -20,7 +20,9 @@
 
 **Notification (text) size** - Change the size of notifications.
 
-**Warnings location** - Change the location of custom mode create onscreen warnings. This value also decides the text size of other onscreen ui elements like that of the set bone as parent tool.
+**Warnings location** - Change the location of custom mode create onscreen warnings.  
+
+**Warnings (text) size** - Warnings size. This value also decides the text size of other onscreen ui elements like that of the set bone as parent tool.  
 
 **Center plane size** - Change the size of the (custom) center plane that's visible when the armature solver overlay is enabled.
 
@@ -28,6 +30,6 @@
 #Advanced
 **Collection to append** - This is the piston (o)riginal collection. You can change this if you prefer so.  
 
-**Custom plural** - Add a pre- and/or suffix.  
+**Custom plural** - This value affects how 'instance' collections are named.  
 
-**Custom singular** - Add a pre- and/or suffix.  
+**Custom singular** - This value affects how 'type' collections are named.  

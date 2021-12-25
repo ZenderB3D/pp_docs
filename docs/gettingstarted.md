@@ -8,10 +8,16 @@ There is also a kpack, see kitops manual on how to install it if you haven't don
 
 #Updating
 
+If replacing the files fails:
+
 First remove the add-on in blender and then restart the client. Now you should be able to re-install the add-on safely.
 
 
 #General usage
 
-If you hid the n-panel, all features are accessible from the pistonpusher pop up menu. The default shortcut is **SHIFT+E**.
+If you hid the n-panel, all features are accessible from the pistonpusher pop up menu. The default shortcut is **SHIFT+E**.  
+
+To append/instantiate a piston, you simply select a thumbnail. New instances are always 'reset' to a sort of default expected state. This means that the B empty will always be re-parented to its host armature even if the last instance was already placed and constrained.  
+
+Depending on object selection, a piston will be placed at an object's location, the 3d cursor or the snap tool/modal will be started. 
 
