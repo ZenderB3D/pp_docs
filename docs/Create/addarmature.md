@@ -3,9 +3,6 @@
 
 After you prepared the piston you're almost done. This section describes how the add armature operator works.
 
-**Object names**  
-Object names should be a single word, you can use special characters but not spaces to separate words. Some objects require a specific name, in template mode this is done for you, in custom mode you can refer to the on-screen warnings.  
-
 
 **Type of piston**  
 The operator knows a few different approaches, you toggle between these by changing the value of the 'Front length anchor' checkbox. The right approach depends a lot on where the mounts are placed and wether they should pivot or not. See the length anchor section for more.
