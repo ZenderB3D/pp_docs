@@ -13,4 +13,4 @@
 
 > Since pistonpusher version 2.9, there is support for mounts. Combined with presets, you can now save your favourite creations or quickly get a simple piston set up for the custom creation mode(Enable 'For create?').  
   
-> Note: Mounts and additionally bevels have the potential to make the tool slow, it all depends on the mount and settings. Also, first revert to operator defaults if trying to use a preset when the tool was already used(The mount off-set values do not correctly apply if you don't).
+> Note: Mounts and additionally bevels have the potential to make the tool slow, it all depends on the mount and settings. Also, first revert to operator defaults if trying to use a preset when the tool was already used(The mount off-set values do not correctly apply if you don't). Lastly, You can spawn preset pistons at locations defined by the object that is selected but presets do not inherit dimensions.
