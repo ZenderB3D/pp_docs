@@ -4,9 +4,9 @@
 ![preferences](../images/preferences.jpg)  
 
 #Main settings
-**Piston directory** - A path pointing to your pistons directory. You can also make your own pistons directories/libraries using your OS/blender filebrowser. Pistons should always be in sub-directories.
+**Assets directory** - A path pointing to your assets directory. It does not need to be set anymore but it's recommended to prevent data-loss during updates.
 
-**Piston parts directory** - A path pointing to your parts directory. Templates are found here as well.
+
 
 
 #UI

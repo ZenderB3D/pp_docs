@@ -28,4 +28,6 @@ Where these features appear depend on your add-on preferences!
 
 
 **Additional information**
-You may notice some piston rods come with mounts or decorative pieces like thread. These rods serve a secondary purpose and are intended for side mounted pistons.
+You may notice some piston rods come with mounts or decorative pieces like thread. These rods serve a secondary purpose and are intended for side mounted pistons.  
+  
+**Type names should be one word long, without whitespaces and/or underscores (underscores are used as separators.)**  

@@ -9,17 +9,18 @@ This is the pistonpusher documentation landing page. It also serves as an introd
 Pistonpusher is an add-on that can quickly rig pistons/actuators in a special way. There are also features to help integrating them. These pistons are special in the sense that they are far more flexible than pistons made with bare minimum solutions.
 
 
-**Advantages**
+**Advantages**  
 
  * Pistons can easily be made longer and shorter. In both retracted/extended states. This behavior is disabled with a single click.
  * Pistons can exist out of any number of objects.
  * Individual elements can rotate freely, think of the rod, mounts and cylinder themselves. 
  * (inverted) telescopic pistons are supported.
- * Pistons are easily removed from a scene.
+ * Pistons are easily removed from a scene/disk.
  * Easy to place and connect to a model/armature.
  * Custom object and collection management system to keep order among all these objects.(No duplicate names if you took the time to name objects) 
  * Instances of a type are derived from the first instance that was placed meaning you can edit multiple pistons in a target scene easily.
  * Materials can be added beforehand.
+ * Tools/features that help modeling a piston.
  * Very flexible.
 
 
