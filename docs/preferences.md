@@ -11,7 +11,7 @@
 
 
 #Asset Management(import/export/merging directories)
-It can handle both piston and part directories. It's agnostic as far as the files and their intended purpose goes. This means the user has some responsibility and it should be used with care. The tool can not execute if the source path is in the currently used library. It only updates indexes of the source files so that they match after copying. I recommend never using it on another library if that library will be used by pistonpusher at a later time!  
+A tool was created to handle file indexes. It can handle both piston and part directories. It's agnostic as far as the files and their intended purpose goes. This means the user has some responsibility and it should be used with care. The tool can not execute if the source path is in the currently used library. It only updates indexes of the source files so that they match after copying. I recommend never using it on another library if that library will be used by pistonpusher at a later time!  
 
 Sharing your works, for whatever purpose, is as simple as making a .zip/7z archive of your specific user parts directory(or simply the whole user directory). The recipient can then merge them as required. If no user parts are present(recipient) you can just move the files, assuming their indexes have not been touched by this tool.  
 
@@ -21,14 +21,14 @@ It tries to catch simple mistakes based on parent directories but this may not a
 
 The structure of your files, at the very least, should look like this  
   
->'Pistons' directory
->	'Your pistons subdir(s)'
+>'Pistons' directory  
+>	'Your pistons subdir(s)'  
   		
 or  
   
->'Piston parts' directory
->	'Your user parts' subdir
->	(optional)'User' directory
+>'Piston parts' directory  
+>	'Your user parts' subdir  
+>	(optional)'User' directory  
 >	(optional)'your user parts' subdir(s)  
   
 If an incompatible match up is detected, a warning will appear and the 'Merge directories' button will be disabled.  
