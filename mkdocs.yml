@@ -6,6 +6,7 @@ nav:
     - Introduction: index.md
     - Getting Started: gettingstarted.md
     - Preferences: preferences.md
+    - Other addons: oaddons.md
     - Create:
         - Intro: Create/create.md
         - Template mode: Create/templatemode.md
@@ -30,7 +31,7 @@ nav:
         - Collection overlay: Features/collectionoverlay.md
         - Select tool: Features/selecttool.md
         - Collection/object management: Features/collectionmanagement.md
-    - Other addons: oaddons.md
+    
         
 
 theme: readthedocs
