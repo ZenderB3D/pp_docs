@@ -13,7 +13,7 @@ First remove the add-on in blender and then restart the client. Now you should b
 
 #General usage
 
-The n-panel is hidden by default, all features are accessible from the pistonpusher pop up menu. The default shortcut is **SHIFT+E**.  
+The n-panel is hidden by default, all features are accessible from the pistonpusher pop up menu. The default shortcut is **SHIFT+E**.(Can be changed in keymaps, search for 'pistonpusher')  
 
 To append/instantiate a piston, you simply select a thumbnail. New instances are always 'reset' to a sort of default expected state. This means that the B empty will always be re-parented to its host armature even if the last instance was already placed and constrained.  
 
