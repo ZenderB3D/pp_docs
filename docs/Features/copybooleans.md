@@ -28,6 +28,7 @@ The target object itself is never changed but you can use the offset values and 
  * Mirrored cutters should have their origins somewhat center to their parent object, otherwise, inverting rotations will not have the desired result.  
  * Hard ops slice booleans, the difference cutter will be copied but the cutout object not.  
  * end() and end only works while used in a range.  
+ * Source and target object should not be parented or constrained with a child of constraint.  
 
 
 
