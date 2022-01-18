@@ -16,7 +16,9 @@ nav:
         - Adding your own parts/templates: Create/addparts.md
         - Create a piston: Create/createapiston.md
     - Features:
+	- Copy booleans Tool: Features/copybooleans.md
         - Piston snap tool: Features/pistonsnaptool.md
+	- Replace piston: Features.replacepiston.md
         - Set child of constraints: Features/addchildof.md
         - Set bone as parent tool: Features/setbparent.md
         - Snap selected to active: Features/snapseltoactive.md
