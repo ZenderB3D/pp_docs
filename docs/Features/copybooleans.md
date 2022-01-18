@@ -1,6 +1,6 @@
 #Copy booleans
   
-![copybooleans](../images/copybooleans.jpg)  
+![copybooleans](../images/copybooleans.jpeg)  
   
 This tool can copy booleans from **one** object to the active object.  
   
