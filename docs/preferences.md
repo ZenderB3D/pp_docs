@@ -30,7 +30,7 @@ or
 >'Piston parts' directory  
 >	'Your user parts' subdir  
 >	(optional)'User' directory  
->	(optional)'your user parts' subdir(s)  
+>	    (optional)'your user parts' subdir(s)  
   
 If an incompatible match up is detected, a warning will appear and the 'Merge directories' button will be disabled.  
 
@@ -59,6 +59,6 @@ If executed succesfully, paths will be cleared and some information is printed t
 #Advanced
 **Collection to append** - This is the piston (o)riginal collection. You can change this if you prefer so.  
 
-**Custom plural** - This value affects how 'instance' collections are named.  
+**Custom plural** - This value affects how 'type' collections are named.  
 
-**Custom singular** - This value affects how 'type' collections are named.  
+**Custom singular** - This value affects how 'instance' collections are named.  
