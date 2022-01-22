@@ -22,7 +22,7 @@ nav:
         - Set child of constraints: Features/addchildof.md
         - Set bone as parent tool: Features/setbparent.md
         - Snap selected to active: Features/snapseltoactive.md
-        - Track to and apply: Features/tracktoandapply.md
+        - Track to: Features/tracktoandapply.md
         - Lock length anchor: Features/locklengthanchor.md
         - Reset hooks: Features/resethooks.md
         - Toggle subd modifiers: Features/togglesubd.md

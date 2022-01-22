@@ -8,7 +8,7 @@ There are both a snap tool and modal. The tool provides numerical input and uses
 
 >Note, you can also re-snap a piston that was already constrained. If you have two empties selected and make a selection in the pop up menu, you will append/instantiate and start the snap modal.
 
->The target empties have to be aligned along their local Y axes.
+>The target empties have to be aligned along their local Y axes. You can use the track to operator for this.
 
 >It also 'restores' a piston to its default set up, so that the B empty is a child of the armature again before it gets snapped. 
 
