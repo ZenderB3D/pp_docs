@@ -24,5 +24,5 @@ It uses vector math to calculate the angle between two axes, one axis of the tra
 Multiple combinations of match 'axis' with ' axis' can work for a given situation. I recommend using the combination with the smallest difference.  
 
 <video width="320" height="240" controls>
-  <source src="../vids/watmode.mp4" type="video/mp4">
+  <source src="watmode.mp4" type="video/mp4">
 </video>
