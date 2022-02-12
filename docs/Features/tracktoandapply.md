@@ -11,14 +11,16 @@ Similar to adding track to constraints and applying them, this tool can do it wi
 ![Radial array](../gifs/fliponeside.gif)  
   
   
-**As of pistonpusher version 3.3.0**  
-It can now also inherit rotations from the objects it is called on.  
+**As of pistonpusher version 3.4.3**  
   
-![Radial array](../gifs/tracktov33.gif)  
-
-
-Note that this will only work once on a certain pair of empties. It works like this:  
+WAT mode was added.  
   
-The locations of the objects are used to create a vector, originally, you'd just get a vector with a pre-determined up axis. This option simply allows you to set a rotation before hand, which is added back once the objects are aligned along the calculated vector. This happens on a per object basis, so, each object can have a different rotation.
+To use WAT, you simply select a third object. This third object should be the active object for it to work properly.  
+  
+WAT, simply put, makes the track to operator useful in situations where the pre-defined UP axis is not desired. It's probably only useful to place pistons for pistonpusher because it can only rotate objects around their local y axis.  
+  
+It uses vector math to calculate the angle between two axes, one axis of the tracked objects and another of the active object. This works because the (local) X and Z axis of the tracked objects already have the correct orientation after they've been aimed at eachother.  
+  
+Multiple combinations of match 'axis' with ' axis' can work for a given situation. I recommend using the combination with the smallest difference.  
 
-
+<iframe width="560" height="315" src="../vids/watmode.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
