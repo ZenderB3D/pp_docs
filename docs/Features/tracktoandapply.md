@@ -23,8 +23,14 @@ It uses vector math to calculate the angle between two axes, one axis of the tra
   
 Multiple combinations of match 'axis' with ' axis' can work for a given situation. I recommend using the combination with the smallest difference.  
 
+>Video shows tool state of initial release  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x4JQGsLqjMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   
 The following image will show the same operation, not using WAT. The blue annotations indicate what happens when WAT is used.
   
 ![Radial array](../images/watmode.png)  
+  
+  
+**As of pistonpusher version 3.4.4**  
+The tool can place empties, toggle WAT on/off, deselect the active object and inherit parent relationships of the selected targets. Child of constraints will work as well.  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A5SIxvEWknE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
