@@ -39,9 +39,9 @@ If executed succesfully, paths will be cleared and some information is printed t
 
   
 #UI
-**Create in n panel only** - Only show create features in the N-panel. Enable for the most compact pop up menu possible.
+**Create in n panel only** - Removed as of v3.4.4
 
-**Hide n panel** - Hide the n panel. Only enable if Create in n panel only is disabled.
+**Hide n panel** - Removed as of v3.4.4
 
 **Notification duration** - The length that a notification stays visible.(Fade out including)
 
