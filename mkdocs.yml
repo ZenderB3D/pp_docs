@@ -17,7 +17,7 @@ nav:
         - Adding your own parts/templates: Create/addparts.md
         - Create a piston: Create/createapiston.md
     - Features:
-	- Hose Attachment Points: Features/haps.md
+        - Hose Attachment Points: Features/haps.md
         - Copy booleans tool: Features/copybooleans.md
         - Piston snap tool: Features/pistonsnaptool.md
         - Replace piston: Features/replacepiston.md
