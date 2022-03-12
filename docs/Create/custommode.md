@@ -1,4 +1,4 @@
-# Template mode
+# Custom piston mode
 
 Where these features appear depend on your add-on preferences!
 
