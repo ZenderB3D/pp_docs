@@ -36,9 +36,26 @@ Pistonpusher is a dedicated solution for pistons/actuators. It’s not a general
 * Set child-of tool.  
 * Linked duplicate radial arrays.  
 * Multi-place.  
-* Track to and apply.  
+* Track to and apply/WAT.  
 * Toggle viewport visibility of all subd modifiers.  
 * Overlays.  
+* Asset/Collection management. 
+  
+#FREE version features:  
+As of version 4.0.1 a free version has been released. It comes without any creation related features. The documentation index indicates which features are in the free version but otherwise they'll refer to the same docs.  
+  
+* Piston snap tool and modal.  
+* Custom Snap selected to active.  
+* Set bone as parent tool.  
+* Set child-of tool.  
+* Linked duplicate radial arrays.  
+* Multi-place.  
+* Toggle viewport visibility of all subd modifiers.    
 * Asset/Collection management.  
+  
+
+
+
+  
 
 
