@@ -19,25 +19,23 @@ nav:
     - Features:
         - Hose Attachment Points: Features/haps.md
         - Copy booleans tool: Features/copybooleans.md
-        - Track to: Features/tracktoandapply.md
-        - Lock length anchor: Features/locklengthanchor.md
-        - Collection overlay: Features/collectionoverlay.md
         - Piston snap tool: Features/pistonsnaptool.md
         - Replace piston: Features/replacepiston.md
         - Set child of constraints: Features/addchildof.md
         - Set bone as parent tool: Features/setbparent.md
         - Snap selected to active: Features/snapseltoactive.md
+        - Track to: Features/tracktoandapply.md
+        - Lock length anchor: Features/locklengthanchor.md
         - Reset hooks: Features/resethooks.md
         - Toggle subd modifiers: Features/togglesubd.md
         - Remove constraints: Features/removeconstraints.md
         - Linked duplicate radial array: Features/lnkdupliradarray.md
         - Multi place: Features/multiplace.md
         - Delete piston: Features/deletepiston.md
+        - Collection overlay: Features/collectionoverlay.md
         - Select tool: Features/selecttool.md
         - Collection/object management: Features/collectionmanagement.md
-
+    
+        
 
 theme: readthedocs
-
-
-
