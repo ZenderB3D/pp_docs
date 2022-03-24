@@ -22,7 +22,7 @@ nav:
         - Track to: Features/tracktoandapply.md
         - Lock length anchor: Features/locklengthanchor.md
         - Collection overlay: Features/collectionoverlay.md
-    - Features(FREE version):
+    - Features FREE version:
         - Piston snap tool: Features/pistonsnaptool.md
         - Replace piston: Features/replacepiston.md
         - Set child of constraints: Features/addchildof.md
