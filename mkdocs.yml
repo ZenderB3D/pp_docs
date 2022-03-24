@@ -7,7 +7,7 @@ nav:
     - Getting Started: gettingstarted.md
     - Preferences: preferences.md
     - Other addons: oaddons.md
-    - Create:
+    - Create(paid version):
         - Intro: Create/create.md
         - Template mode: Create/templatemode.md
         - Custom mode: Create/custommode.md
@@ -16,15 +16,15 @@ nav:
         - Adding an armature: Create/addarmature.md
         - Adding your own parts/templates: Create/addparts.md
         - Create a piston: Create/createapiston.md
-    - Features:
+    - Other Features(paid version):
+        - Track to: Features/tracktoandapply.md
         - Hose Attachment Points: Features/haps.md
         - Copy booleans tool: Features/copybooleans.md
-        - Track to: Features/tracktoandapply.md
-        - Lock length anchor: Features/locklengthanchor.md
         - Collection overlay: Features/collectionoverlay.md
-    - Features FREE version:
+    - Other Features(FREE and paid version):
         - Piston snap tool: Features/pistonsnaptool.md
         - Replace piston: Features/replacepiston.md
+        - Lock length anchor: Features/locklengthanchor.md
         - Set child of constraints: Features/addchildof.md
         - Set bone as parent tool: Features/setbparent.md
         - Snap selected to active: Features/snapseltoactive.md
