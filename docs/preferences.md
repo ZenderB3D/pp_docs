@@ -49,7 +49,7 @@ If executed succesfully, paths will be cleared and some information is printed t
 
 **Notification (text) size** - Change the size of notifications.
 
-**Warnings location** - Change the location of custom mode create onscreen warnings.  
+**Warnings location** - Change the relative location of custom mode create onscreen warnings.
 
 **Warnings (text) size** - Warnings size. This value also decides the text size of other onscreen ui elements like that of the set bone as parent tool.  
 

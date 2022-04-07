@@ -8,5 +8,18 @@ The geometry node modifier of a hap placer simply spawns instances for every ver
   
 This video explains the core usage basics:  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aY-qu_xp5Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aY-qu_xp5Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  
+How to use it with existing piston instances/parented objects(v4.0.2+):  
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xvUeWWZ6yWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+*Limitations/Drawbacks*  
+* Data transfers will be resource intensive, even more so on objects that are hooked. Disabling viewport visibility of the data transfer modifier, or applying them are two ways to get around that.  
+* While workable at smaller scales, it prefers a rather big scale to work with. This has more to do with floating point imprecision. In the future I will explore optimizations. For now, reducing rim bevel segments should give the data transfer operator enough error margin at smaller scales.
+
+
+
  
+
+
