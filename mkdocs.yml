@@ -17,11 +17,13 @@ nav:
         - Adding your own parts/templates: Create/addparts.md
         - Create a piston: Create/createapiston.md
     - Other Features(paid version):
-        - Track to: Features/tracktoandapply.md
+	- Universal joints: Features/unijoints.md
+        - WAT modal: Features/wat_modal.md
         - Hose Attachment Points: Features/haps.md
         - Copy booleans tool: Features/copybooleans.md
         - Collection overlay: Features/collectionoverlay.md
     - Other Features(FREE and paid version):
+	- Track to tool: Features/tracktoandapply.md
         - Piston snap tool: Features/pistonsnaptool.md
         - Replace piston: Features/replacepiston.md
         - Lock length anchor: Features/locklengthanchor.md

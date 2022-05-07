@@ -6,7 +6,7 @@ There is also a k- and decal(machine) pack, see the Kit ops/Decal Machine docume
 
 #Updating
 
-If replacing the files fails:
+If replacing the files fails for some reason:
 
 First remove the add-on in blender and then restart the client. Now you should be able to re-install the add-on safely.
 

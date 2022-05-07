@@ -39,24 +39,22 @@ If executed succesfully, paths will be cleared and some information is printed t
 
   
 #UI
-**Create in n panel only** - Removed as of v3.4.4
-
-**Hide n panel** - Removed as of v3.4.4
-
-**Notification duration** - The length that a notification stays visible.(Fade out including)
-
-**Notification location** - Change the location of notifications. It's recommended that you only change the Y axis value.
-
-**Notification (text) size** - Change the size of notifications.
-
-**Warnings location** - Change the relative location of custom mode create onscreen warnings.
-
+**Pop up menu size** - Pop up menu width, this value adjusts for system ui scale internally.  
+  
+**Notification duration** - The length that a notification stays visible.(Fade out including)  
+  
+**Notification location** - Change the location of notifications. It's recommended that you only change the Y axis value.  
+  
+**Notification (text) size** - Change the size of notifications.  
+  
+**Warnings location** - Change the relative location of custom mode create onscreen warnings.  
+  
 **Warnings (text) size** - Warnings size. This value also decides the text size of other onscreen ui elements like that of the set bone as parent tool.  
+  
+**Center plane size** - Change the size of the (custom) center plane that's visible when the armature solver overlay is enabled.  
+   
 
-**Center plane size** - Change the size of the (custom) center plane that's visible when the armature solver overlay is enabled.
-
-
-#Advanced
+#Advanced  
 **Collection to append** - This is the piston (o)riginal collection. You can change this if you prefer so.  
 
 **Custom plural** - This value affects how 'type' collections are named.  
