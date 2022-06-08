@@ -1,5 +1,8 @@
 #Universal (cardan) joints
 
+This video demonstrates how to use them(Features are found in the Quick rig system as of v5.1.0 but functionally identical):  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNIz6bj-Ob8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+  
 Pistonpusher offers a simple universal joint rig. It comes with placeholder objects which can be changed as you see fit. So long you don't change bone names or remove any, the combine joint operator can be used to combine this joint with a piston. This will also rename the objects and make the cardan joint collection a child of the piston instance collection.  
   
 To combine a universal joint with a piston, select the universal joint armature and then the piston cylinder, piston rod or another object that can be tracked and click on the 'combine joint' button in the tools section. If succesful, a 'JOINT IS SET UP' message will appear. Theoretically this should work regardless of orientation but I recommend doing this before a piston is placed or moved.  

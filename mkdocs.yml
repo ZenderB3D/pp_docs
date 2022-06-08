@@ -16,8 +16,12 @@ nav:
         - Adding an armature: Create/addarmature.md
         - Adding your own parts/templates: Create/addparts.md
         - Create a piston: Create/createapiston.md
+    - Quick Rigs(paid version):
+        - Intro: Quickrigs/quickrigs.md
+        - Simple Piston: Quickrigs/simplepiston.md
+        - Cable/Hose: Quickrigs/righose.md
+        - Cardan Joints: Quickrigs/unijoints.md
     - Other Features(paid version):
-        - Universal joints: Features/unijoints.md
         - WAT modal: Features/wat_modal.md
         - Hose Attachment Points: Features/haps.md
         - Copy booleans tool: Features/copybooleans.md

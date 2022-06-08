@@ -3,11 +3,11 @@
 
 Pistonpusher offers a way to model pistons easier. Multiple workflows are supported. There are parts that you can place, think of mounts, connectors and rods. You can also add your own parts!
 
-To get started, if you hid the n-panel, just open the pistonpusher pop up menu and check the show creation panel checkbox. You can start the creation mode but also make parts with the options available in it. Otherwise, you want to be in the n-panel.
+To get started, just open the pistonpusher pop up menu and hover over 'Create' dropdown menu. You can start the creation mode but also make parts with the options available in it.
 
 
 **Creating a piston - Template mode**  
-This mode was designed for boolean heavy workflows and tie rod designs especially. It's fairly constrained but you can still edit meshes manually to heart's content. Some templates come with a high amount of empties. These offer a way to adjust the base shape of the piston. 
+This mode was designed for boolean heavy workflows and tie rod designs especially. It's fairly constrained but you can still edit meshes manually to heart's content. Some templates come with a high amount of empties. These offer a way to adjust the primary shape of the piston.
 
 
 ![Radial array](../images/trodtempbevel.jpg)
