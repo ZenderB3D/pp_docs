@@ -23,6 +23,7 @@ nav:
         - Cardan Joints: Quickrigs/unijoints.md
         - Collection Mirror Tool: Quickrigs/collectionmirror.md
     - Other Features(paid version):
+	- Piston Planner: Features/piston_planner.md
         - WAT modal: Features/wat_modal.md
         - Hose Attachment Points: Features/haps.md
         - Copy booleans tool: Features/copybooleans.md
