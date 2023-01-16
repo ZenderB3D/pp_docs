@@ -9,15 +9,15 @@ nav:
     - Quick Rig:
         - Intro: Quickrigs/quickrigs.md
         - Simple Piston: Quickrigs/simplepiston.md
-	- Duplicate Piston: Quickrigs/duplicate_piston.md
-	- Telescopic Pistons: Quickrig/telescopic.md
-	- Stretchable Rigs: Quickrigs/make_stretchable.md
+        - Duplicate Piston: Quickrigs/duplicate_piston.md
+        - Telescopic Pistons: Quickrig/telescopic.md
+        - Stretchable Rigs: Quickrigs/make_stretchable.md
         - Cable/Hose: Quickrigs/righose.md
         - Cardan Joints: Quickrigs/unijoints.md
         - Collection Mirror Tool: Quickrigs/collectionmirror.md
     - Other Features:
         - Piston Planner: Features/piston_planner.md
-	- Piston Snap Tool: Features/snap_modal.md
+        - Piston Snap Tool: Features/snap_modal.md
         - Replace piston: Features/replacepiston.md
         - Snap and Drag tool: Features/snap_and_drag.md
         - Weird Align Tool: Features/wat_modal.md
