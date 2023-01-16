@@ -1,15 +1,8 @@
-#Universal (cardan) joints
-
-This video demonstrates how to use them(Features are found in the Quick rig system as of v5.1.0 but functionally identical):  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DNIz6bj-Ob8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+#Universal (cardan) joints  
   
-Pistonpusher offers a simple universal joint rig. It comes with placeholder objects which can be changed as you see fit. So long you don't change bone names or remove any, the combine joint operator can be used to combine this joint with a piston. This will also rename the objects and make the cardan joint collection a child of the piston instance collection.  
-  
-To combine a universal joint with a piston, select the universal joint armature and then the piston cylinder, piston rod or another object that can be tracked and click on the 'combine joint' button in the tools section. If succesful, a 'JOINT IS SET UP' message will appear. Theoretically this should work regardless of orientation but I recommend doing this before a piston is placed or moved.  
-  
-This action will re-parent the respective original piston anchor to the universal joint rig, which will then act as the new anchor for that side. The snap modal does not support pistons with universal joints. Disable the 'reset new instances' opt-in if you need more instances.  
-  
-Lastly, the universal joint rig has 3 bones that are relevant for users. The a, b and c bone. a and b represent the mounting pieces, c is the cross object. Objects should be a child of these bones only. B should always point towards the piston. 
+PistonPusher offers cardan/universal joint assets. These come rigged and can easily be combined with a piston of choice using the quick rig system.  
+    
+The universal joint armature has two sides, a control side and a track side. The track side should always be adjecent to the piston. After placing the cardan joint, you should select its armature and either the piston cylinder section or piston rod or whatever object happens to be in that location, roughly(in that order). The objects can be replaced, but the bones should remain untouched. Feel free to save your own variations for re-use!  
 
 
 

@@ -1,5 +1,7 @@
 #Collection Mirror Tool  
   
+A tool designed to mirror assemblies of rigs and their attached baggage so to say. It is called the mirror collection tool because it requires a collection active and selected in the outliner.     
+  
 When this option is selected, additional parameters will appear which you can use to get the result you require.  
 
 Additionally, the behavior of this tool can be influenced to tweak the results if issues arise, this is done by tagging object names:

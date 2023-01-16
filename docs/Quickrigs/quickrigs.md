@@ -1,18 +1,7 @@
-# Quick Rigs  
+# Quick Rig System
 
-Quick Rigs, as the name implies are a collection of operators that can quickly rig a selection of objects.  
+The quick rig system is essentially a sort of context sensitive operator switch-board. With it you'll be able to rig almost any kind of piston. It has some other features as well but the most important thing to remember is that the options available always depend on your selection or lack there of.
   
-It currently has 4 options:  
-
-* Simple piston  
-* Cable/Hose  
-* Add Cardan Joint  
-* Combine cardan joint with piston  
-
-It's found in the pop up menu tools section. The contents of the type dropdown menu are context sensitive. They rely on fairly simple assumptions, mostly about origins. An example are the simple piston rigs. The object origins become the pivot points of the resulting rig.  
-  
-This video demonstrates how the simple piston and cable/hose options work.  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cArLGq8ssAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-
+Contrary to the older creation modes, the quick rig system allows you to work regardless of orientation.    
 
 

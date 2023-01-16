@@ -1,8 +1,5 @@
 # Simple Piston
 
-The fastest and simplest way to make a piston. Origins should be set to their pivot point. To-be cylinder should be the active object. Orientation and/or applied transforms do not really matter. Cardan joints work with quick rig pistons as well. See re-do panel to change track constraint type.
+The fastest and simplest way to make a piston. It requires a selection of two objects, with one active. Their origins are used to define the pivot points. The operator works regardless of orientation and if needed, it can align the armature/rig to the objects used to create it. 
 
-It works really well with bevel shader materials. Note that it only supports two objects!  
-
-To properly use cardan joints, the origins of the cylinder and rod objects have to be moved before it can be joined.
 

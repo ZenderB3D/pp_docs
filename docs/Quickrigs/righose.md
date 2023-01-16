@@ -8,5 +8,5 @@ To create an IK chain that can be used right away, additional objects have to be
 
 ![preferences](../images/qrhc2.jpg)  
 
-- Curve resolution can be changed beforehand but unless the curve is really long, the default curve resolution of 12 should suffice. A better strategy would be to use a subd modifier to later on if needed.  
+- Curve resolution should be as low as possible  
 - Curve bevel resolution is set to 6 but only if it was higher than 6 to prevent (performance) issues due to geometry density.  
