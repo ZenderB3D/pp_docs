@@ -11,8 +11,7 @@ Other tools can access the snap points manager python class responsible for all 
 Other add-ons can theoretically access the above mentioned python class as well and access the system in exactly the same manner as I can, which may be interesting in the future.  
   
 
-# UI:  
-  
+# UI  
   
 * White circle will snap to the snap point 'closest to mouse'  
 * Isolated objects receive a yellow circle around their origin, if objects are isolated, only snap points belonging to those objects are shown  
@@ -22,8 +21,6 @@ Other add-ons can theoretically access the above mentioned python class as well 
     
 # Limitations  
   
-
 * Applying transformations on an object that has snap points can result in misplaced snap points  
 * In a similar manner, editing its mesh may invalidate a snap point as well  
 * Snap points created with the snap points manager mirror option can not be mirrored again  
-
