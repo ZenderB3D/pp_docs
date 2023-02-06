@@ -23,6 +23,7 @@ Other add-ons can theoretically access the above mentioned python class as well 
 # Limitations  
   
 
-* Applying transformations on an object that has snap points can result in misplaced snap points. In a similar manner, editing its mesh may invalidate a snap point as well  
+* Applying transformations on an object that has snap points can result in misplaced snap points  
+* In a similar manner, editing its mesh may invalidate a snap point as well  
 * Snap points created with the snap points manager mirror option can not be mirrored again  
 
