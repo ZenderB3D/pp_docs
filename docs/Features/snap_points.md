@@ -13,15 +13,16 @@ Other add-ons can theoretically access the above mentioned python class as well 
 
 # UI:  
   
-* White circle will snap to the snap point 'closest to mouse'
-* Isolated objects receive a yellow circle around their origin, if objects are isolated, only snap points belonging to those objects are shown
-* Operators can allow you to mark a snap point if a selection of multiple snap points is needed. Marked snap points receive an orange circle
-* Yellow dotted/striped line indicating the owner and distance to owner
-* Snap points of the active object, if any, appear thicker than those belonging to other objects
   
+* White circle will snap to the snap point 'closest to mouse'  
+* Isolated objects receive a yellow circle around their origin, if objects are isolated, only snap points belonging to those objects are shown  
+* Operators can allow you to mark a snap point if a selection of multiple snap points is needed. Marked snap points receive an orange circle  
+* Yellow dotted/striped line indicating the owner and distance to owner  
+* Snap points of the active object, if any, appear thicker than those belonging to other objects  
+    
 # Limitations  
   
+
 * Applying transformations on an object that has snap points can result in misplaced snap points. In a similar manner, editing its mesh may invalidate a snap point as well  
 * Snap points created with the snap points manager mirror option can not be mirrored again  
 
- 
