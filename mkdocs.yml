@@ -8,6 +8,7 @@ nav:
     - Preferences: preferences.md
     - Quick Rig:
         - Intro: Quickrigs/quickrigs.md
+        - Edit Armature: Quickrigs/editarmature.md
         - Simple Piston: Quickrigs/simplepiston.md
         - Duplicate Piston: Quickrigs/duplicate_piston.md
         - Telescopic Pistons: Quickrigs/telescopic.md

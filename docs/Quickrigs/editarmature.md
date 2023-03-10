@@ -1,0 +1,35 @@
+#Quick Rig - Edit Armature:  
+  
+As the name suggest, it's a tool that lets you edit armatures. More precisely, this is a modal operator that wraps around actions you might make when you take an armature to edit mode.  
+  
+What this means is that pistonpusher can detect changes and do something based on them. It can do a variety of things:  
+  
+* Smart adjust - Translate vertices and objects based on the difference in bone length if bones changed. This behaviour can be disabled per bone, alternatively, you can configure 'center' points, also on a per bone basis  
+* Bone 2 mesh - Add cylinder or cube primitives based on bone length  
+* Joint 2 mesh - Add cylinder or cube primitives at bone tail/heads  
+* Toggle bone display type  
+* Toggle bone axes  
+* Automatically unparent orphaned objects(if parent bone was deleted/not found)  
+  
+  
+#Smart adjust:  
+  
+This system will adjust objects that are immediate children of any bones that changed during an edit mode session. For tail ends this is done automatically by blender but with this system, it's also done for head ends. This means that origins are preserved if they are at a bone head/tail location.  
+  
+Center/half points are based on the state of any parent bones when the operator was started, as this state aligns with the state of any child objects until you exit edit mode. The circle that appears when you changed a bone (having children) indicates the exact point where a mesh will be halved.  
+  
+#Bone 2 Mesh / Joint 2 Mesh  
+  
+Spawns primitive objects, a cube or a cylinder at the location of bones or tail/head ends. Joint 2 mesh results in rotated primitives and you can define a primary axis that controls this rotation.  
+  
+Bone 2 mesh will scale/stretch to object to match bone length.  
+  
+Joint 2 mesh will target whichever linked bone is the child bone, it also works on unconnected tail or heads.   
+  
+#limitations:  
+* While you can toggle object modes with the drop down menu blender offers for it, this is strictly an edit mode tool. Smart adjust and relation related stuff will only take place if operator was exited from edit mode  
+* Can't rename existing bones while this operator is active, only NEW bones  
+* Smart adjust stretching only works with mesh objects currently  
+* Child objects using child of constraints will not adjust properly if armature rotation is not (0, 0, 0). There are multiple ways to deal with this issue (Hence the 'Arm as obj' mode for the set bone parent tool). The easiest two are simply not using child of constraints or to set a child object as parent instead of a bone  
+* Tool expects an armature at rest-pose. Note that constraints including IK may affect a chain and technically pose it as well. Testing proved that to a certain degree it will work with minimally posed armatures  
+
