@@ -22,7 +22,7 @@ Center/half points are based on the state of any parent bones when the operator 
   
 Spawns primitive objects, a cube or a cylinder at the location of bones or tail/head ends. Joint 2 mesh results in rotated primitives and you can define a primary axis that controls this rotation.  
   
-Bone 2 mesh will scale/stretch to object to match bone length.  
+Bone 2 mesh will scale/stretch the object to match bone length.  
   
 Joint 2 mesh will target whichever linked bone is the child bone, it also works on unconnected tail or heads.   
   
