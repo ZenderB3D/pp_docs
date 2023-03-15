@@ -9,6 +9,7 @@ What this means is that pistonpusher can detect changes and do something based o
 * Joint 2 mesh - Add cylinder or cube primitives at bone tail/heads  
 * Toggle bone display type  
 * Toggle bone axes  
+* Undo all - Undo any changes/set to rest pose  
 * Automatically unparent orphaned objects(if parent bone was deleted/not found)  
   
   
@@ -18,6 +19,8 @@ This system will adjust objects that are immediate children of any bones that ch
   
 Center/half points are based on the state of any parent bones when the operator was started, as this state aligns with the state of any child objects until you exit edit mode. The circle that appears when you changed a bone (having children) indicates the exact point where a mesh will be halved.  
   
+Objects that use child of constraints are also supported but these are treated differently: These will never have their mesh stretched(even if mesh object), which side they adjust to is based on distance to parent bone tail or head.  
+
 #Bone 2 Mesh / Joint 2 Mesh  
   
 Spawns primitive objects, a cube or a cylinder at the location of bones or tail/head ends. Joint 2 mesh results in rotated primitives and you can define a primary axis that controls this rotation.  
@@ -30,6 +33,6 @@ Joint 2 mesh will target whichever linked bone is the child bone, it also works 
 * While you can toggle object modes with the drop down menu blender offers for it, this is strictly an edit mode tool. Smart adjust and relation related stuff will only take place if operator was exited from edit mode  
 * Can't rename existing bones while this operator is active, only NEW bones  
 * Smart adjust stretching only works with mesh objects currently  
-* Child objects using child of constraints will not adjust properly if armature rotation is not (0, 0, 0). There are multiple ways to deal with this issue (Hence the 'Arm as obj' mode for the set bone parent tool). The easiest two are simply not using child of constraints or to set a child object as parent instead of a bone  
 * Tool expects an armature at rest-pose. Note that constraints including IK may affect a chain and technically pose it as well. Testing proved that to a certain degree it will work with minimally posed armatures  
+* Undo(ctrl + z) and bone to mesh/joint 2 mesh can crash blender
 
