@@ -17,6 +17,7 @@ nav:
         - Cardan Joints: Quickrigs/unijoints.md
         - Collection Mirror Tool: Quickrigs/collectionmirror.md
     - Other Features:
+        - Parent Wizard: Features/parent_wizard.md
         - Snap Points: Features/snap_points.md
         - Piston Planner: Features/piston_planner.md
         - Piston Snap Tool: Features/snap_modal.md
@@ -25,8 +26,6 @@ nav:
         - Weird Align Tool: Features/wat_modal.md
         - Hose Attachment Points: Features/haps.md
         - Copy booleans tool: Features/copybooleans.md
-        - Set child of tool: Features/addchildof.md
-        - Set bone as parent tool: Features/setbparent.md
         - Toggle subd modifiers: Features/togglesubd.md
         - Linked duplicate radial array: Features/lnkdupliradarray.md
 
