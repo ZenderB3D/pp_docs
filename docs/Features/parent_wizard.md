@@ -26,4 +26,5 @@ You control the tool mainly with the left and right mouse button. LMB acts as a 
 * B: LMB passthrough, use for box select, lmb or b after selection will process the selection  
 * SPACE: Toggle OBJ/POSE mode, hover mouse over armature(bone) and press space to access bones  
 * 1: Deselect all, even pose bones  
+* 2: Unparent all children of any selected objects or bones  
 * ESC: Exit/Finish operator  
