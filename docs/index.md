@@ -16,6 +16,7 @@ Pistonpusher is an add-on dedicated to pistons and actuators. It comes with both
 * Asset browser compatible  
 * Customizable cardan/universal joint rigs
 * Hose attachment points
+* Mirror armatures/collections
 
 #Why/Who?  
 This add-on tries to prevent some repetitive tasks and reduce the overhead and planning required to model and rig mechanical objects more efficiently. I think it can be useful for anyone who makes vehicles and mechanical objects in blenders.  
