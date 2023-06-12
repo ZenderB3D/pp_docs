@@ -10,3 +10,4 @@ To create an IK chain that can be used right away, additional objects have to be
 
 - Curve resolution should be as low as possible  
 - Curve bevel resolution is set to 6 but only if it was higher than 6 to prevent (performance) issues due to geometry density.  
+- Rebuilds curve with a geometry nodes alternative  
