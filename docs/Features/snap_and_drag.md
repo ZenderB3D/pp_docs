@@ -1,7 +1,5 @@
-#Snap and Drag tool
+#Snap tool
   
-A bit of a weird tool that can facilitate object to object snapping by clicking on an object and then releasing the mouse on another. Once done, it transitions to a slide/scale/stretch/rotate operator.  
+A tool that can be used to snap objects to other objects. It also has a slide and scale mode which can be accessed pressing S after snapping an object. Offsetting and rotating is also possible. Lastly, you can also snap to face centers or snap points(holding ctrl or pressing tab respectively)  
   
-It also has a view-based anchor snap mode that's only available if you click on a piston armature or b empty. it expects that you assume a side view which is only used to set a rotation. A target object is still required to set a location. If you don't release on an object but empty space, it'll use the 3d cursor.  
-  
-In slide mode, pressing 1, 2 or 3 for an axis that's already active will offset the object in the direction of the set axis, you can press I to invert the offset direction.  
+When offsetting, pressing I will invert the offset direction.  
