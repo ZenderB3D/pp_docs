@@ -6,7 +6,7 @@ A tool that can be used to place existing pistons or establish a 'work' plane to
   
 #keymap:  
 * LMB/RMB - Basic tool usage  
-* SPACEBAR - Toggle obj/mesh mode if possible  
+* SPACEBAR - Select obj or Toggle obj/mesh mode if possible  
 * Q - Get center - Get center between the currently selected location(yellow) and the highlighted one(red)(mesh mode only)  
 * W - Use edge - Use edge to define points  
 * E - Loop center (Angle based)(Edge), works similar to get center if a location is already selected  
