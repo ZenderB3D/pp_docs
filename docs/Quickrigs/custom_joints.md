@@ -19,7 +19,7 @@ To use this feature:
   
 Select the mount object and a (rigged!) piston object then call the quick rig menu and select the 'add custom joint' option.  
   
-A circle indicates the allowed rotation axis and is only affected by the lock axis. The following values can be useful:  
+A circle indicates the allowed rotation axis and is only affected by the lock axis. The following values can be used as a reference:  
   
 track Y, lock Z/X  
 track Z, lock Y  
