@@ -19,7 +19,7 @@ Pistonpusher is an add-on dedicated to pistons and actuators. It comes with both
 * Mirror armatures/collections
 
 #Why/Who?  
-This add-on tries to prevent some repetitive tasks and reduce the overhead and planning required to model and rig mechanical objects more efficiently. I think it can be useful for anyone who makes vehicles and mechanical objects in blenders.  
+This add-on tries to prevent some repetitive tasks and reduce the overhead and planning required to model and rig mechanical objects more efficiently. I think it can be useful for anyone who makes vehicles and mechanical objects in Blender.  
   
 #What can it not do?  
 Pistonpusher is a dedicated solution for pistons/actuators. It’s not a general purpose rigging kit. 
