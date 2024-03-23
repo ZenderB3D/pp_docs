@@ -10,6 +10,7 @@ What this means is that pistonpusher can detect changes and do something based o
 * Toggle bone display type  
 * Toggle bone axes  
 * Undo all - Undo any changes/set to rest pose  
+* Temporarily detach any children. Including relations made with a child of constraint and bones that target your armature with child of constraints  
 * Automatically unparent orphaned objects(if parent bone was deleted/not found)  
   
   
@@ -30,9 +31,8 @@ Bone 2 mesh will scale/stretch the object to match bone length.
 Joint 2 mesh will target whichever linked bone is the child bone, it also works on unconnected tail or heads.   
   
 #limitations:  
-* While you can toggle object modes with the drop down menu blender offers for it, this is strictly an edit mode tool. Smart adjust and relation related stuff will only take place if operator was exited from edit mode  
 * Can't rename existing bones while this operator is active, only NEW bones  
 * Smart adjust stretching only works with mesh objects currently  
 * Tool expects an armature at rest-pose. Note that constraints including IK may affect a chain and technically pose it as well. Testing proved that to a certain degree it will work with minimally posed armatures  
-* Undo(ctrl + z) and bone to mesh/joint 2 mesh can crash blender
+* Undo(ctrl + z) and bone to mesh/joint 2 mesh can crash blender  
 
