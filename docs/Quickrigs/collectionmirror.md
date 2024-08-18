@@ -12,6 +12,7 @@ Additionally, the behavior of this tool can be influenced to tweak the results i
 - _RST - Use when posebone child of constraints must be set to inverse after mirror operation (if the mirror operation failed on a specific armature, go to pose mode, find a child of constraint and hit set inverse, if this fixes it, you should use this tag)  
 - _OBLCL - Mirror every child of this armature. May require that rotations are applied  
 - _LCL - Use to mirror this object locally  
+- _FB - Fix Bone roll, unparent all bones before mirror op, re-parent afterwards  
   
 The order of these tags does not matter!  
 
