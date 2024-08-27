@@ -9,3 +9,5 @@ The operator briefly shows an abstract representation of the extended piston. If
 The behavior/results achieved by changing the leading or trailing distance settings per rod depend on FIFO mode. In a nutshell, when FIFO mode is ENABLED, trailing distance works similar as leading distance when fifo mode is DISABLED but in reverse. Leading distance while FIFO mode is ENABLED lets you override the FIFO order for that specific rod only.  
   
 Note: The operator expects that the piston is in a retracted state during set up!  
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/advHm9VjPXM?si=mEARtn3Lp8x1ItPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
