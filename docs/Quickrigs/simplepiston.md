@@ -1,9 +1,9 @@
 # Simple Piston
 
-The fastest and simplest way to make a piston. It requires a selection of two objects, with one active. Their origins are used to define the pivot points. The operator works regardless of orientation and if needed, it can align the armature/rig to the objects used to create it.  
+This tool can be used with a selection of two objects. These objects may have children which will be re-parented accordingly. Note that the rotations of the root level objects are used to define the plane your actuator will operate in.  
   
-Note:  
+By default, the tool will re-align the local orientations of all actuator objects. To do so properly, in some cases, most notably vertical set ups(z axis), the 'use axis' *axis*(not the toggle!) may have to be changed.  
   
-When the align to active option is used, the use axis setting is rather important and when wrongly set, the piston may disappear until you set the right one. The y axis should point towards the B empty. In addition, both UI elements that appear briefly should have the same orientation.  
+Lastly, there's a button with a *refresh icon*, this may be used for advanced set ups where one mount is rolled relative to the other.  
 
 
