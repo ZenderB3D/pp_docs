@@ -15,5 +15,7 @@ Additionally, the behavior of this tool can be influenced to tweak the results i
 - _FB - Fix Bone roll, unparent all bones before mirror op, re-parent afterwards  
   
 The order of these tags does not matter!  
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3lA208YJRfw?si=9hg6YahYYOKQ0cbx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+  
+Multiple video's show it in action, including:  
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eDz-pBrr9aA?si=2QB6yR1-AGGNLTfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
