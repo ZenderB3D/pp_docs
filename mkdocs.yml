@@ -8,16 +8,17 @@ nav:
     - Preferences: preferences.md
     - Quick Rig:
         - Intro: Quickrigs/quickrigs.md
-        - Edit Armature: Quickrigs/editarmature.md
+        - Simple Bones: Quickrigs/simple_bones.md
         - Simple Piston: Quickrigs/simplepiston.md
-        - Duplicate Piston: Quickrigs/duplicate_piston.md
         - Telescopic Pistons: Quickrigs/telescopic.md
-        - Custom Joints: Quickrigs/custom_joints.md
         - Stretchable Rigs: Quickrigs/make_stretchable.md
         - Cable/Hose: Quickrigs/righose.md
-        - Cardan Joints: Quickrigs/unijoints.md
+        - Duplicate Piston: Quickrigs/duplicate_piston.md
         - Collection Mirror Tool: Quickrigs/collectionmirror.md
+        - Edit Armature: Quickrigs/editarmature.md
         - Expose Root: Quickrigs/expose_root.md
+        - Custom Joints: Quickrigs/custom_joints.md
+        - Cardan Joints: Quickrigs/unijoints.md
     - Other Features:
         - Parent Wizard: Features/parent_wizard.md
         - Snap Points: Features/snap_points.md
