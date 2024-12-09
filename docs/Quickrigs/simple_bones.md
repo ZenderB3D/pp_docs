@@ -6,7 +6,7 @@ Its mostly useful in situations that involve other software like plasticity. I o
   
 In short, this tool can capture these origins and place bones in a logical manner, based on the axes of the origin plane/reference object used. 
   
-Objects qualify as an 'origin plane', for this tool, if: 
+Objects qualify as an 'origin plane', for this tool, if:  
  1. Object is of type 'MESH'  
  2. matrix_world is identity (0,0,0 location and rotation, 1, 1, 1 scale)  
  3. Object has exactly 1 face 
