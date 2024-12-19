@@ -10,10 +10,10 @@ Note: The FIFO setting considers rods in a reversed order, starting from the A s
 ##Requirements  
   
  - The origin of the rod you wish to add should be set to whichever end is closest to the B empty  
- - The local orientation of the rod should match that of the piston*  
+ - The local orientation of the rod should match that of the piston (See below)  
  - This tool expects a piston in its rest state  
   
-* PistonPusher offers a 'parent helper' to help with this, found in the main menu IF you have an object selected and a piston object as the active object. This will parent the object to the parent bone of the active object and align its rotation so that it matches your piston armature.  
+PistonPusher offers a 'parent helper' to help with this, found in the main menu IF you have an object selected and a piston object as the active object. This will parent the object to the parent bone of the active object and align its rotation so that it matches your piston armature.  
 ![parenthelper](../images/cm_parent_helper.jpg)  
   
 Note: Any rods that you wish to add, should not be children of the piston already, un-parent them if needed!(With exception of the original rod, this will be a part of the piston already and should be left untouched)  
