@@ -47,7 +47,7 @@ Trailing: Similar to leading distance when FIFO is DISABLED but considers the ro
   
 FIFO DISABLED:
   
-Leading: Offsets the leading distance used by the limit distance constraint of the leading rod (Rod N-1)  
+Leading: Offsets the leading distance used by the limit distance constraint   
   
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/advHm9VjPXM?si=mEARtn3Lp8x1ItPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
