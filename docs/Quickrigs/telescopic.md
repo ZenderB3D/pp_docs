@@ -1,13 +1,53 @@
 #Telescopic Pistons 
-    
-You can easily add more rods and later remove them, to/from any pistonpusher piston by selecting the rod and any piston object. Then open the quick rig menu and the options should be available. To remove them, select any piston object, open the quick rig menu and choose 'remove rod'. This will start removing rods, starting with the last one added.   
   
-These rods should be simple cylinders during set up, with their origin at whichever end is closest to the B empty. Once set-up, you can add detailing objects and parent them to their respective rod bones.  
+PistonPusher offers a system for actuators with telescopic segments/rods. This system works in a sequential manner, where you add/remove each rod separately.  
   
-The operator briefly shows an abstract representation of the extended piston. If an ERROR icon appears in the re-do panel, you should specify the original rod or add an object that will qualify as it. (object should not be more than twice as short as longest rod found and be a child of the piston rod end bone for the operator to recognize it)  
+This system assumes that the B side of your piston (or its Rod End), also has a rod. This page calls this particular rod the 'original rod', or, when tracing back to A from the B side, the first rod.  
   
-The behavior/results achieved by changing the leading or trailing distance settings per rod depend on FIFO mode. In a nutshell, when FIFO mode is ENABLED, trailing distance works similar as leading distance when fifo mode is DISABLED but in reverse. Leading distance while FIFO mode is ENABLED lets you override the FIFO order for that specific rod only.  
+Note: The FIFO setting considers rods in a reversed order, starting from the A side. Staying analogous to its abbreviation (First In, First Out).  
   
-Note: The operator expects that the piston is in a retracted state during set up!  
+  
+##Requirements  
+  
+ - The origin of the rod you wish to add should be set to whichever end is closest to the B empty  
+ - The local orientation of the rod should match that of the piston*  
+ - This tool expects a piston in its rest state  
+  
+* PistonPusher offers a 'parent helper' to help with this, found in the main menu IF you have an object selected and a piston object as the active object. This will parent the object to the parent bone of the active object and align its rotation so that it matches your piston armature.  
+![parenthelper](../images/cm_parent_helper.jpg)  
+  
+Note: Any rods that you wish to add, should not be children of the piston already, un-parent them if needed!(With exception of the original rod, this will be a part of the piston already and should be left untouched)  
+  
+  
+##How to use  
+  
+This section assumes you already have a rigged piston and prepared some rods. (All requirements are met)  
+  
+Select a rod, starting with the one closest to the B empty (but not the original rod!), then any piston object > Open menu > Quick rig > Add rod  
+  
+This is also how you remove them, but in this case, you start at the A side (Removing the last added rod first).  
+  
+Note 1: The operator tries to find your original rod, if for some reason it fails to recognize it, the object input field may be set to the original rod (An error icon will be visible if this has to be done).  
+  
+Note 2: I recommend/prefer using simple objects during set-up. Afterwards you're free to detail them and add more objects to each segment (if desired).  
+  
+Note 3: FIFO mode will lock a Piston to the given mode when the first (second if we include the original rod) rod was added.  
+  
+Note 4: The operator expects that the piston is in a retracted state during set up!  
+  
+  
+##Leading/Trailing distance  
+  
+These settings work differently based on FIFO mode:  
+  
+FIFO ENABLED:  
+  
+Leading: Override FIFO order for this specific rod (Can be useful to set up malfunctioning systems)  
+Trailing: Similar to leading distance when FIFO is DISABLED but considers the rods in a reverse order  
+  
+FIFO DISABLED:
+  
+Leading: Offsets the leading distance used by the limit distance constraint of the leading rod (Rod N-1)  
+  
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/advHm9VjPXM?si=mEARtn3Lp8x1ItPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
