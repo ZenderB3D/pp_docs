@@ -34,5 +34,3 @@ Joint 2 mesh will target whichever linked bone is the child bone, it also works 
 * Can't rename existing bones while this operator is active, only NEW bones  
 * Smart adjust stretching only works with mesh objects currently  
 * Tool expects an armature at rest-pose. Note that constraints including IK may affect a chain and technically pose it as well. Testing proved that to a certain degree it will work with minimally posed armatures  
-* Undo(ctrl + z) and bone to mesh/joint 2 mesh can crash blender  
-
