@@ -1,6 +1,6 @@
 #Piston Planner Tool  
   
-A tool that can be used to place existing pistons or establish a 'work' plane to model one. In more technical terms, this is a vector based orientation tool.  
+A tool that can be used to place existing pistons or establish a 'work' plane to model one. In more technical terms, this is a vector/matrix based orientation tool.  
   
 ##Why  
   
@@ -15,8 +15,10 @@ So in other words: Almost all actuators that move in 3 dimensions are fixed to a
   
 ##How it works  
   
-Once the tool has been started, you can use objects and/or geometry to define locations. First the pivot points. Then a vector representing the side of your actuator, or the amount of roll, this also requires 2-4 locations(2 blue vectors for advanced setups). At this point the tool has enough information to form a matrix which is used to orient the empties.
-
+Once the tool has been started, you can use objects and/or geometry to define locations. First the pivot points. Then a vector representing the side of your actuator, or the amount of roll, this also requires 2-4 locations(2 red vectors for advanced setups). At this point the tool has enough information to form a matrix which is used to orient the empties.  
+  
+Note: You can also Click and Drag to create vectors. This also works while changing between obj/mesh mode!  
+  
 This tool, by itself, will only spawn correctly aligned empties. This keeps the tool fairly low level and leaves the rest to the user. If you already have a model in place, set the origins of at least the root objects to their respective side/empty. Otherwise, the empties can be used as a starting point for your model.  
   
 #Troubleshooting  
