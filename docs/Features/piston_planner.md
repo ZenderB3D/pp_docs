@@ -19,7 +19,7 @@ Once the tool has been started, you can use objects and/or geometry to define lo
   
 Note: You can also Click and Drag to create vectors. This also works while changing between obj/mesh mode!  
   
-This tool, by itself, will only spawn correctly aligned empties. This keeps the tool fairly low level and leaves the rest to the user. If you already have a model in place, set the origins of at least the root objects to their respective side/empty. Otherwise, the empties can be used as a starting point for your model.  
+This tool can either provide you with a pair of empties with the correct orientation, or, set the orientation of 2 selected mesh objects.  
   
 #Troubleshooting  
   
